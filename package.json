@@ -8,13 +8,9 @@
     ".medusa/server"
   ],
   "keywords": [
-    "sqlite",
-    "postgres",
-    "typescript",
-    "ecommerce",
-    "headless",
     "medusa",
-    "plugin"
+    "plugin",
+    "medusa-plugin-other"
   ],
   "scripts": {
     "build": "medusa plugin:build",
