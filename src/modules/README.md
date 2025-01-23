@@ -93,3 +93,24 @@ export async function GET(
 }
 ```
 
+## Module Options
+
+When you register the plugin in the Medusa application, it can accept options. These options are passed to the modules within the plugin:
+
+```ts
+import { defineConfig } from "@medusajs/framework/utils"
+
+module.exports = defineConfig({
+  // ...
+  plugins: [
+    {
+      resolve: "@myorg/plugin-name",
+      options: {
+        apiKey: process.env.API_KEY,
+      },
+    },
+  ],
+})
+```
+
+Learn more about module options in [this documentation](https://docs.medusajs.com/learn/fundamentals/modules/options).
