@@ -68,7 +68,7 @@ npx medusa plugin:db:genreate
 
 ## Use Module
 
-You can use the module in customizations within the plugin or within the Medusa application using this module. When the plugin is added to a Medusa application, all its modules are registered as well.
+You can use the module in customizations within the plugin or within the Medusa application using this plugin. When the plugin is added to a Medusa application, all its modules are registered as well.
 
 For example, to use the module in an API route:
 
