@@ -10,7 +10,9 @@
   "keywords": [
     "medusa",
     "plugin",
-    "medusa-plugin-other"
+    "medusa-plugin-other",
+    "medusa-plugin",
+    "medusa-v2"
   ],
   "scripts": {
     "build": "medusa plugin:build",
