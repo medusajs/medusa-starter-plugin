@@ -3,6 +3,8 @@ name: Update Medusa
 
 on: 
   workflow_dispatch: # Allow manual runs
+  repository_dispatch:
+    types: [medusa-release-published]
 
 jobs:
   update:
@@ -19,4 +21,5 @@ jobs:
         uses: medusajs/medusa-update-action@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          target-version: ${{ github.event.client_payload.version }}
           
