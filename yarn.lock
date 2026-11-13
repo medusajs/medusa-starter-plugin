@@ -1342,14 +1342,14 @@
   resolved "https://registry.yarnpkg.com/@js-sdsl/ordered-map/-/ordered-map-4.4.2.tgz#9299f82874bab9e4c7f9c48d865becbfe8d6907c"
   integrity sha512-iUKgm52T8HOE/makSxjqoWhe95ZJA1/G1sYsGev2JDKUSS14KAgg1LHb+Ba+IPow0xflbnSkOsZcO08C7w1gYw==
 
-"@medusajs/admin-bundler@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/admin-bundler/-/admin-bundler-2.22.6.tgz#90a8cb69a20f52125a546c4c14495b23048b6f93"
-  integrity sha512-Zdx2XuQxMnEOr0j9RaSFGDSdY3tTALa0VMD659XBdcck8nK0OYVV+VnZS+ai+URR20sdPmyXt/3E5muHZ3cRQw==
+"@medusajs/admin-bundler@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/admin-bundler/-/admin-bundler-2.22.7.tgz#40d39f87c63cdbbd5aa56c82884212354d4fed2b"
+  integrity sha512-mbBnR/Z3a7PcQcbkznoPzC48ULXBjI12OAz/4HBg3zib88VcrOLjdThd93QahBs0DOjZ7DXh0vp2aoST3jaVLA==
   dependencies:
-    "@medusajs/admin-shared" "2.22.6"
-    "@medusajs/admin-vite-plugin" "2.22.6"
-    "@medusajs/dashboard" "2.22.6"
+    "@medusajs/admin-shared" "2.22.7"
+    "@medusajs/admin-vite-plugin" "2.22.7"
+    "@medusajs/dashboard" "2.22.7"
     "@vitejs/plugin-react" "^5.2.0"
     autoprefixer "^10.6.1"
     compression "^1.8.2"
@@ -1361,85 +1361,90 @@
     tailwindcss "^3.4.3"
     vite "^7.3.7"
 
-"@medusajs/admin-sdk@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/admin-sdk/-/admin-sdk-2.22.6.tgz#60f9d9e70dd4fa5ad0a58181a1daffbc88d9c175"
-  integrity sha512-DoivYiUIELqXIgPiPY7FP+KRd2nNFsITU1J8ycp1+zIhXoKVsuXVnz4vGRmjYN+baccT6t/oO09Brpof4GKCFw==
+"@medusajs/admin-sdk@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/admin-sdk/-/admin-sdk-2.22.7.tgz#162450711b169cbc6d019dd26a2eec264fd6a6f8"
+  integrity sha512-bdyrQkDTOuvGYTQFBL8nYwYZKUkNPLeE6+IHdvU6l2kmXnYW6JFp5/6SQ9eLIX3/wH2HafyFZJ+CBg6v6VAzpw==
   dependencies:
-    "@medusajs/admin-shared" "2.22.6"
+    "@medusajs/admin-shared" "2.22.7"
     zod "4.6.6"
 
-"@medusajs/admin-shared@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/admin-shared/-/admin-shared-2.22.6.tgz#6d58cb9fa71f34abd2691bac37996f373d1c4b6d"
-  integrity sha512-e80s9i7QHhL+RepNkjI6XHHyjORFp3o5PiSN5w3PqvWLZu3+RpqbNZFOia2U2QyapWfEYIxc8ZlTUn8K2ZejEQ==
+"@medusajs/admin-shared@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/admin-shared/-/admin-shared-2.22.7.tgz#07beed586c8ecb210f44967910f15fc989b3d115"
+  integrity sha512-mq6whNHqqrXgjGwa3pqT3GlEt8YPLxqRp24qJcCKKEVI5vbylGZeLFH2MVTrYE6h4LnuQ1eYJMLMdR3vk0NlIA==
 
-"@medusajs/admin-vite-plugin@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/admin-vite-plugin/-/admin-vite-plugin-2.22.6.tgz#ec0b90c902fb0ec3fb2d0695c15d636cd48b442f"
-  integrity sha512-zprXhxZ50VOlmDtiXy1EsXW0rrN2uv7gcB8empwpMKfWO2N9yAM6h/43UKrAABgszWFg+jYhPIyTOyYEgbxkiQ==
+"@medusajs/admin-vite-plugin@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/admin-vite-plugin/-/admin-vite-plugin-2.22.7.tgz#cfd6df1f026096714d85b6546a455afbf1342f39"
+  integrity sha512-U70DmiLnSAQaRYoFJdlQS99Nm+PZre0RVzpOORoBxiyAEi1Lgux5wko4yn/Af80d1mUDZu8b2SLepXI6dsK1eQ==
   dependencies:
     "@babel/parser" "8.0.10"
     "@babel/traverse" "8.0.10"
     "@babel/types" "8.0.10"
-    "@medusajs/admin-shared" "2.22.6"
+    "@medusajs/admin-shared" "2.22.7"
     fdir "6.1.1"
     magic-string "1.4.3"
     outdent "^0.8.0"
     picocolors "^1.1.0"
 
-"@medusajs/analytics-local@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/analytics-local/-/analytics-local-2.22.6.tgz#510c5daf0d7c922a3a2b535994f7303659d5f55e"
-  integrity sha512-hj3RS3gNqdNybkiwVUcc2zhBhWaUJKYflvDEInwuuM+6+2fpJoY+BWGUSLjLX1Es3wLWP6+Mkg7ORfD2lLCW6w==
+"@medusajs/analytics-local@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/analytics-local/-/analytics-local-2.22.7.tgz#274006c34f9ad96278a2f8248303fe8c663b51fe"
+  integrity sha512-g4LdtRYF9QbsM5kzAHchT2iELiBSs4Ngym99NkUy9K7IkfKR4jZQoVUY1dFLQT+4F7yhKFoLm3lXeQ5tNd6lIg==
 
-"@medusajs/analytics-posthog@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/analytics-posthog/-/analytics-posthog-2.22.6.tgz#705055b8325010839a42b7653aa636cc38dc30a0"
-  integrity sha512-tvhr8/K1M3w6QlFs1tmYs0f+y+3lx6Hcp4BA9TgrP1TblGZDW/9EZuFvPnj5/vTaQupWyi9jrJp6ibHIhU/m2Q==
+"@medusajs/analytics-posthog@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/analytics-posthog/-/analytics-posthog-2.22.7.tgz#563a291fa023d75bc7df20c062f5728e6c76af08"
+  integrity sha512-xBBkowfKgoosNbXaaB+TgEqKFpEVXqdeoPnXzstQvOrHj5mueCUfDmPk475w0XB5ZKkWPUDTPT4RDMcivXJPUg==
 
-"@medusajs/analytics@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/analytics/-/analytics-2.22.6.tgz#63a0c2bd9d29a014f378cef02982243b0f6e8e67"
-  integrity sha512-Z1sW6aMX/PvZWDXIXkvoFeVnZgkjjA+vHdooIdpaQBoFLlMg9U/N6cuY/Ty/euGGGZqSI6vr4dy7CsnJKhONLw==
+"@medusajs/analytics@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/analytics/-/analytics-2.22.7.tgz#c87e165b03dbef657907a1e94e147c6f01bab414"
+  integrity sha512-UKi/DWtA+lZltw1w3w0jUCdzgqHxQIBq+Ly37KarHtrWNJd42qthARSKR1g6D6n6hWQ3ahoP65QjzcfNVDvXmA==
 
-"@medusajs/api-key@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/api-key/-/api-key-2.22.6.tgz#b2ad741f6d805ff57074b4a14e22abf48528be77"
-  integrity sha512-OP1JvQiKKVmj1LS36AqqLS86gjlsRx4HJpSvBRP8G+pihHWsJB1Q/PpfXIpOg0wiiNYTzlT6+aSLwQU2fdPRiA==
+"@medusajs/api-key@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/api-key/-/api-key-2.22.7.tgz#9d14ee24cf69837c75cfa4e54590a89d9de67d4f"
+  integrity sha512-2LanpV5r0j7iq/wBIJysYos0FmHvDDMNmiDHlWPTqP1m2Epex1qm3Ptv3zUNIfaOl6FbFvMOokMy6aqemsmFAg==
 
-"@medusajs/auth-emailpass@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/auth-emailpass/-/auth-emailpass-2.22.6.tgz#bc55000a94fd016f9ffb47466b3eb0cc0ed155e1"
-  integrity sha512-MJvsb/oeqXCYUHcRAvkahZ/PYVssjjLemScy96DAYUkOPNzcB24oGUQbDEdLjTS1zEuKhaTRWG44IwZ2+qnEAg==
+"@medusajs/audit@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/audit/-/audit-2.22.7.tgz#7dfce40c9fc8f1a6e9795f18750623679c08ddab"
+  integrity sha512-5WIvE9LhCDfvVtSiGMS4zLq1eQF5aUMip4gW7cxYm1FtccwwytmAAeZ4/0sGtiXQPd0P7MMwiVp7hTTn90tR5w==
+
+"@medusajs/auth-emailpass@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/auth-emailpass/-/auth-emailpass-2.22.7.tgz#6b20ab435f860d83571e4c8e14be921c1c7349c9"
+  integrity sha512-Nq0qEuaPNvIaZF0Pewp8xM23IpK0vXxAnh+vdRsgYV5v3FXKx87K6+5Qllp0L0UTfO/zzJmJ6x95svbhsRIWOQ==
   dependencies:
     scrypt-kdf "^4.0.0"
 
-"@medusajs/auth-github@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/auth-github/-/auth-github-2.22.6.tgz#b9d5216def0c16afca31b8fbad568d1950c579af"
-  integrity sha512-e26Aq5ZawfTRrG21IZ0eCRLNClBWu0hA+MR03FMC/85kCIFupGu096ToHp9aWkdtoDwAt8uIcnElJQPC8SVX/w==
+"@medusajs/auth-github@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/auth-github/-/auth-github-2.22.7.tgz#597c97ddec8cf449a13de6d13a92a314b9f102b2"
+  integrity sha512-+GJfNfIwBaQ/Orm0IMQ8jAlOCy7sJrqKptdShKtIde/MsjjCgf6Nkbba/l6WADMehHiloqCKKTuFY3GXlcZZ4Q==
 
-"@medusajs/auth-google@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/auth-google/-/auth-google-2.22.6.tgz#b89e19b3fb1144eea46c7647c73990621a73a9fb"
-  integrity sha512-b0MaumfWPVfaf3iz59eofBb2vp9m8gV36GOhUk1ZGmZMGO0riwrY2nKDkBRP5/G/Gj7SBE9KYvy5mMR2mXJn3w==
+"@medusajs/auth-google@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/auth-google/-/auth-google-2.22.7.tgz#af561dae64d342b2b945b4855d6ab92a89897125"
+  integrity sha512-9dNf0vEMJP3Aap5wZhKV+OMAg8lJX7mfrphgOkq2iEqlsC/v+KTls9J6xPR16JTmPZOJyb/FXuERHtxuocx52g==
   dependencies:
     jsonwebtoken "^9.0.2"
     jwks-rsa "^4.1.0"
 
-"@medusajs/auth-oidc@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/auth-oidc/-/auth-oidc-2.22.6.tgz#43762ed69e6c3caf30d5e89d5a3674203f1a700f"
-  integrity sha512-XUC+UBB4DM/lgbrjx+3Gy5Kq67dZJu7eXtK1xgw5jZeFdAROJ+HYMXotwi/Tix7AGEAp+jlAHc9Ifu6SEoUViA==
+"@medusajs/auth-oidc@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/auth-oidc/-/auth-oidc-2.22.7.tgz#228622eeebbd9e36c942a499c28910c86c55efb1"
+  integrity sha512-rY7CUWKP/lHcdj3xwJ9Vbz2mLIAgD8dBtuLIR3OyGhnB2Ac5Gm7uMOg1Hf9B7mZ5TVgwNAqwMMpknaA9+aDbTQ==
   dependencies:
     oauth4webapi "^3.8.8"
     openid-client "^6.8.8"
 
-"@medusajs/auth@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/auth/-/auth-2.22.6.tgz#e4cec865f44020b9699f4bf92df8686eaf5e5032"
-  integrity sha512-b0SbEMcFpFWhyBBlp7QvOOSMdjol/jklML7+ujTONFBfz+kR43krH2fb8OHFb3mrZma1j5C6lmSCpHuMw7+aYA==
+"@medusajs/auth@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/auth/-/auth-2.22.7.tgz#a7edac21127a64f9c1ed1bcb660c88a55a2a5158"
+  integrity sha512-7BQ1hANuzO56PRE49vXhvWpmLWz34wP2TXBcVXPWE9Pfn7p8Jbppxjgo6FMCTlccz4IT4F/ljcbfR4eW2bL9mA==
   dependencies:
     "@otplib/core" "^13.5.0"
     "@otplib/plugin-crypto-node" "^13.5.0"
@@ -1449,48 +1454,48 @@
     jwks-rsa "^4.1.0"
     scrypt-kdf "^4.0.0"
 
-"@medusajs/cache-inmemory@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/cache-inmemory/-/cache-inmemory-2.22.6.tgz#fb58571166cdd898a8eb8b8f622f897a1a665f36"
-  integrity sha512-c3R3NIrDwVVfhbjNNpGT5JTtKH48tTUOpE58/zuoGKmOeVo29FO6sLYBGozi4HA/FRMUMQYvEHFlV61ODfVmMA==
+"@medusajs/cache-inmemory@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/cache-inmemory/-/cache-inmemory-2.22.7.tgz#464310d544daf8940f024a0d83b823b9be509a01"
+  integrity sha512-6ZpkO7n8T+S4ijf5d8CdNn4BvgaGHXaOchQkYStywhssel35sCE0BAweLlzyEi2NSi+2y2zV9EBNYXYpRoygYw==
 
-"@medusajs/cache-redis@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/cache-redis/-/cache-redis-2.22.6.tgz#4a26c97bac42be8db5245a2575915246385a3445"
-  integrity sha512-z5axN1/+PZsB68RsrKWasosX8UcvKokkzypO66aU3qRW/UjRc9X/blvRPd0pWNaI6OIJBdtpamMh/D/TZ6RqAw==
+"@medusajs/cache-redis@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/cache-redis/-/cache-redis-2.22.7.tgz#efade338bb368fde2d25968b0e15eb6dc4448777"
+  integrity sha512-GekOS2/ZsjngRJzCr355nmbpQfsjQeWvOAQXkUknqqIAkNrb5d71mFnBj1t2R6lzp9/eTmM++Rbsbrn1pQoGZQ==
   dependencies:
     ioredis "^5.11.1"
 
-"@medusajs/caching-redis@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/caching-redis/-/caching-redis-2.22.6.tgz#b6cef984f36c39afd996793d68c1b2930b9639eb"
-  integrity sha512-ExYJg9T7cAS8tC4E1/2oX60V3MhErUO5MS+6CUIrgtSoIZ6TAnf41n2cSk18ype7tfOtdo3s7oU+QLacB+WIrQ==
+"@medusajs/caching-redis@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/caching-redis/-/caching-redis-2.22.7.tgz#b764ec78be5f1fea346e9d561dad958a1b5673b9"
+  integrity sha512-XaYE4E3MMki4liFcDnA/KgAK+Ty0w7Pq4/w7XkxVUsMK5Ng0GpPKwCRitb/Wst4ovRaJUVeO+jHFtvXRu0rpVg==
   dependencies:
     ioredis "^5.11.1"
     xxhash-wasm "^1.1.0"
 
-"@medusajs/caching@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/caching/-/caching-2.22.6.tgz#c181cb7ec4d2c233b041d9769aa447a0f2672f0c"
-  integrity sha512-mAtbOyWrlPBojGu9lTbWSRAiBaMEToLjSnfLySImiMJvnpBzboG3EtQNkfs6u7Kg5a5VMr+iA15UpJbGf+ZEZQ==
+"@medusajs/caching@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/caching/-/caching-2.22.7.tgz#2dee3e72406867bbd80153c254e99263121ca862"
+  integrity sha512-AGOXhok3KtIDJlLQkJhJ5ScorR8R7dJk0Mpfp5hx06iNqViyOxu7IdosluBSQe0rmidotyr0pX1HdpLsMhm4bg==
   dependencies:
     fast-json-stable-stringify "^2.1.0"
     node-cache "^5.1.2"
     xxhash-wasm "^1.1.0"
 
-"@medusajs/cart@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/cart/-/cart-2.22.6.tgz#dc03eb834cbfa03b2c11afd365f8cb799a1dc4dc"
-  integrity sha512-qQnXzDnjySkNT2n6FsSDyBv9xh6J8K14z2E7KMrTqLBwvRNBTagsqd8oDvvQLR6xq2cvwF8oE5YuzHjUeDLjSw==
+"@medusajs/cart@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/cart/-/cart-2.22.7.tgz#906b3ff5d9d9e42cd9e3f019126db02a8e68bcbe"
+  integrity sha512-x6jYDPBRC8u8ofLEj0OAznM7k6I1khkjG+7SwUbG4UEZJcTI6y9ot51Bkj79EuQvji7nKcjxqZnKusumdy5VnQ==
 
-"@medusajs/cli@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/cli/-/cli-2.22.6.tgz#40a3ad616a70e5f9ae2dd44ef57ba751fb466b35"
-  integrity sha512-ZIaWuMtk8klwnZ0aceHzfUOeylGYAFmHazxyaVO7aW9r8Od/AGxo5S+MCT3KzG5fcIPW15B7W+lkl1w9LhCWwg==
+"@medusajs/cli@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/cli/-/cli-2.22.7.tgz#079ab1e8b3a21156a885a992b04a297fccb06371"
+  integrity sha512-tFh3sogIYRx6xNHirCfqtqhzlCFjADii0kEQAPMAUfZx0x30tCAOKfep/bwgukPlZP5a3xEhyCgpwCftGku7eQ==
   dependencies:
-    "@medusajs/deps" "2.22.6"
-    "@medusajs/telemetry" "2.22.6"
-    "@medusajs/utils" "2.22.6"
+    "@medusajs/deps" "2.22.7"
+    "@medusajs/telemetry" "2.22.7"
+    "@medusajs/utils" "2.22.7"
     "@types/express" "^4.17.21"
     configstore "^8.0.0"
     dotenv "^18.0.9"
@@ -1510,29 +1515,38 @@
     winston "^3.9.0"
     yargs "^18.2.0"
 
-"@medusajs/core-flows@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/core-flows/-/core-flows-2.22.6.tgz#e22b307d060aebb1ba48cac17374376a13e1ebea"
-  integrity sha512-U5m5wZcnBuVT3oINstYswd3wlKOdCZy6abz6agxrkaNdwhzSlPaFiqgySUIT+un4RZ6Akl7bGvwjJbZRTy1xyA==
+"@medusajs/cloud@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/cloud/-/cloud-2.22.7.tgz#ab13c3159c3803fab0c6a66ac026af564a8abd38"
+  integrity sha512-Z9WxQuIi5tlKpljURltXMBKq2yQYKDzrU2m+19Mk5x6eMxJd8lTzlwDge7XBlXfHcmuzoTOYaC/L6xOcV/moJA==
+  dependencies:
+    "@medusajs/js-sdk" "2.22.7"
+    "@tanstack/react-query" "5.64.2"
+    dompurify "3.4.17"
+
+"@medusajs/core-flows@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/core-flows/-/core-flows-2.22.7.tgz#1315185fdfaf9e323e859863cded235114412714"
+  integrity sha512-DV+sc2gfUa+kUUS9n+NvlQLQtWLEd5R3lS3p/zusS2qMyu8bXL3DSNBd5hJ1BWtVtvyYEpIrsK62MZcIeMY9Ng==
   dependencies:
     csv-parse "^7.0.2"
     deeks "^3.2.1"
     json-2-csv "^5.6.0"
 
-"@medusajs/currency@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/currency/-/currency-2.22.6.tgz#8fc6ae4e22b260eba3c6de727499dc4ca47747ab"
-  integrity sha512-3lapGgWBcyRR5sC6abMC9yCGr9psQN7gAzaTBuUUJQf7Rm5LtZommpvFrQwtWWEUvfHdXkR+f+Iwhd7yLF7Atg==
+"@medusajs/currency@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/currency/-/currency-2.22.7.tgz#ca436f7a1c7fe932178aba9c3a64a8be4518a83e"
+  integrity sha512-glnJSR9XoDKDxihvkLx/pQampWIr/wanr3SezA0qwiTYLND4RI+yEdpFn3dXc+37urMTau+pxpfaK4e0XPOkVQ==
 
-"@medusajs/customer@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/customer/-/customer-2.22.6.tgz#cc79ec68faff44db2d4e46d9c5627c07349cd738"
-  integrity sha512-zei+5cG8jWq9h+ZBaHe8dcvJN3ZjKxOIlGBEi9GslYR68rLdmrb/X+4TQZLbyGlEouIf+vTkWLje1bh5Wp+snA==
+"@medusajs/customer@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/customer/-/customer-2.22.7.tgz#6eb9f333e5d36bf7bff0a9b01ededea81543b8aa"
+  integrity sha512-8hnRKQOMpFjfvPUaV11cJa8AAlJBUSS+ATb1N5IqgGK+ZAsNf3abveD5UfqOICLilXILGiZMccL4Ekxa8rUqRQ==
 
-"@medusajs/dashboard@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/dashboard/-/dashboard-2.22.6.tgz#6a8970fdf002ff9c7077c2a0823a295f86b9102a"
-  integrity sha512-Vbl2L/HRuNHUxtxG0TjNH0dNBoHtAw1bcR35NeZ+nnJyEE+Q7dGkuQH/m9TLziJmqPrkH5bgA/PywzaIVyzKmQ==
+"@medusajs/dashboard@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/dashboard/-/dashboard-2.22.7.tgz#5d4ba0ada7c11fbf59ecdb78e9fa4aef5dd093e3"
+  integrity sha512-u5DQfFnZNV45HrLWvurV7UxcxDD3ZuMI9wV0LONL1ZRu5FskgZUeLLH0Z+WDiioKUtgq0BOmfAY+bic/2KJT8A==
   dependencies:
     "@ariakit/react" "^0.4.15"
     "@babel/runtime" "^8.0.10"
@@ -1541,10 +1555,10 @@
     "@dnd-kit/utilities" "^3.2.2"
     "@hookform/error-message" "^2.0.1"
     "@hookform/resolvers" "6.0.0"
-    "@medusajs/admin-shared" "2.22.6"
-    "@medusajs/icons" "2.22.6"
-    "@medusajs/js-sdk" "2.22.6"
-    "@medusajs/ui" "4.2.13"
+    "@medusajs/admin-shared" "2.22.7"
+    "@medusajs/icons" "2.22.7"
+    "@medusajs/js-sdk" "2.22.7"
+    "@medusajs/ui" "4.2.14"
     "@radix-ui/react-dialog" "1.1.4"
     "@radix-ui/react-dismissable-layer" "1.1.4"
     "@tanstack/react-query" "5.64.2"
@@ -1575,10 +1589,10 @@
     react-router-dom "7.18.2"
     zod "4.6.6"
 
-"@medusajs/deps@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/deps/-/deps-2.22.6.tgz#3b02cb7650836215d95c2ee554208bb34a40a789"
-  integrity sha512-wj1oIsjM4dBQ8yHo8b7ApHt0GlHoD8Vsk02X7xld4Wg5slncdbifiuvX/EuEf6HWh0FueiF8wht9sZ2JgY+eVQ==
+"@medusajs/deps@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/deps/-/deps-2.22.7.tgz#0bb53b9d2976dd799f8e6ceb8fb53710cb9b5373"
+  integrity sha512-41E/yt9V5OVklNsy4GERv5EsFmfN0XyJKsYDlMaJFboeNvRfY0K3q6KSHrFmBZk2j2r2vIwGulcp1SxPfAdt+g==
   dependencies:
     "@mikro-orm/cli" "6.6.17"
     "@mikro-orm/core" "6.6.17"
@@ -1594,15 +1608,15 @@
     pg "^8.23.1"
     zod "4.6.6"
 
-"@medusajs/draft-order@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/draft-order/-/draft-order-2.22.6.tgz#82b92c238f8d156fc4415517394286008b16aea3"
-  integrity sha512-od602oXRmt4R2FWRN4ETexg5NMXu6KzeLzIsg+Tn5sbjGYbKVt8bNGtB+wRf2ABxJxCzj7Cg6c0mo9MM4Bp9mA==
+"@medusajs/draft-order@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/draft-order/-/draft-order-2.22.7.tgz#00198d8857d304a528a7cb46e73893560d95e6b8"
+  integrity sha512-7MUUcJrKb58b4v0JGALxab6ZrZ4huSk9hKjauvBtnfW+70VeMDG6J65mPS9br0Z4Urm/tidF4knRhCFvRaTcKg==
   dependencies:
     "@ariakit/react" "^0.4.15"
     "@babel/runtime" "^8.0.10"
     "@hookform/resolvers" "6.0.0"
-    "@medusajs/js-sdk" "2.22.6"
+    "@medusajs/js-sdk" "2.22.7"
     "@tanstack/react-query" "5.64.2"
     "@uiw/react-json-view" "^2.0.0-alpha.17"
     date-fns "^4.4.0"
@@ -1613,62 +1627,62 @@
     react-hook-form "7.83.0"
     zod "4.6.6"
 
-"@medusajs/eslint-plugin@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/eslint-plugin/-/eslint-plugin-2.22.6.tgz#afae3fadd75ddfb9b4c9920b633f3bebd5e50f76"
-  integrity sha512-1cW3BwyeMDEHgWoG6fDyVlGaqZE1xBaQauoMcmohBCb8/Jaw73Qs/7GBWa7QK/KU6HRLeanpgr0G+8/SWIhEVw==
+"@medusajs/eslint-plugin@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/eslint-plugin/-/eslint-plugin-2.22.7.tgz#ba31ee2cd540ec69334f0d57db84f3d636e0e777"
+  integrity sha512-RxjT/pELAtuMue+2mU+q77IU/oKB+U8PgdDMqlRks+dOEgNOhx16AV2V2BTMzT84fJd6o5QaL242MgJ+0RALFA==
   dependencies:
     "@typescript-eslint/parser" "^8.72.0"
     "@typescript-eslint/utils" "^8.72.0"
     cron-parser "^5.10.2"
 
-"@medusajs/event-bus-local@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/event-bus-local/-/event-bus-local-2.22.6.tgz#6a7a52cf8876c730f15881e4c863aa2b7d492962"
-  integrity sha512-dbahrdBsf9Ti9orRi+Rsu/amFpzlHTW1d30GCzpka0drebpL3L8CnUOyInNl/Llnco5ad/BJafp9fAnIBv+wKA==
+"@medusajs/event-bus-local@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/event-bus-local/-/event-bus-local-2.22.7.tgz#859249a7228c80b88069ced3ae891c45f5c28e18"
+  integrity sha512-MHTdbp0jcUasbvogT3bkxXYJThrBIFnLptxfP6HVeX3pCSlJE3LMwG31PzqX5n3MfQapSnbH7JVNAJhWPpaNbg==
 
-"@medusajs/event-bus-redis@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/event-bus-redis/-/event-bus-redis-2.22.6.tgz#056fcb424bad3c50974950ae9e1756990fef924d"
-  integrity sha512-XVB1CsU6R/3NrHUXVoGMjkO1m/httfqxHwUuGc7K5O+5Xa01Z9xvbtGze0r2QzMfXkbg2gMCJhltYSZhVRESmA==
+"@medusajs/event-bus-redis@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/event-bus-redis/-/event-bus-redis-2.22.7.tgz#202e2dede59ee2ee9fd5528f2a3973f9fec616a5"
+  integrity sha512-DBj2YR0m9F4ogcP15A/byy/2ASYPVDGoRE75jY3GOkS7IJJwPenxQEVvaE+xr5RHW+kzbInZXiqEXAgJ+mwI9w==
   dependencies:
     bullmq "5.13.0"
     ioredis "^5.11.1"
 
-"@medusajs/file-local@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/file-local/-/file-local-2.22.6.tgz#416c8522f987a34b41bdeecf757afe0df257b88d"
-  integrity sha512-aUNFWB+Bux2UIhoPKseiGzTResuHr66w0MCYNExURdpok9rR1MjQTwTMY3LuPLIMdqjavJ/tQSGfP45AA/g9ig==
+"@medusajs/file-local@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/file-local/-/file-local-2.22.7.tgz#7c7fc12a60481e17e381c40fb74f291b798e9edd"
+  integrity sha512-PpcFDw3lGFqrWugkfVOAM4sG8F0T9olidMQKPsn3pcadHHu33TUCyyzAQntJUpftjrYmDixzMhZIOnJ7nIVwDg==
 
-"@medusajs/file-s3@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/file-s3/-/file-s3-2.22.6.tgz#4bfa828bf347eb0d8f8d5159a5e203fa89e1538d"
-  integrity sha512-7VZqpZkhWLbwhtv7B7/3W/0+4FKG+Pv+v1k42uBBLceMZi4CeMlfAqZDumSi28xSzd/olHoOiu0ZPZkFBwytSQ==
+"@medusajs/file-s3@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/file-s3/-/file-s3-2.22.7.tgz#a68de98f27d70a6b61354dbefac8b281ad23cda8"
+  integrity sha512-QSdKs7o7atZlqZivNj3xyGrZQISIRAPljcIFXx3x5agDUNvCN5UqXbV/7mXjHzbVjAAftPO/H0wu+0MjhXR46w==
   dependencies:
     "@aws-sdk/client-s3" "^3.1156.0"
     "@aws-sdk/lib-storage" "^3.1156.0"
     "@aws-sdk/s3-request-presigner" "^3.1156.0"
     ulid "^3.0.2"
 
-"@medusajs/file@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/file/-/file-2.22.6.tgz#b6ee209bbfe63b6b2cf49c45164898fc58e58ff7"
-  integrity sha512-NykislnsQiwHd1mKk19+NZ0HJVPduYLCxwQhBsoGEXYogjKjuSTO8T0SHzTtcw8bU+WvPpn/VJXSASwzirN/dQ==
+"@medusajs/file@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/file/-/file-2.22.7.tgz#f38fe377af33652a0b6ea2e8e812b9a5bbeda9a7"
+  integrity sha512-KycKwsbur9O0oQZQmIlKx+Mk26Ja1rQixB5enfJ4J7n8p5YpBRPhquG0ByaFCohB6l5KyWLH8Gi++iAKjgLRlg==
 
-"@medusajs/framework@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/framework/-/framework-2.22.6.tgz#638db471ad0ab0ef3423df921f54eeb0c001d070"
-  integrity sha512-wNaM+F9UoVbEyxqh6fg1Ppv4iY9g1AzaH+1Qy9IViELqEXi7YmBamUTy932dTOFKdXWxJ/LAOe6M8WzPdAIe+w==
+"@medusajs/framework@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/framework/-/framework-2.22.7.tgz#075dfb0a553fce69e918b3ed5eea049141cdc6cb"
+  integrity sha512-9jt21puNZp90S80a2U0wauzdzvpdoPa/vZrexUsp8Jm54IWr8+qOPGDK6JneU7qTQ/BJnC68exxU4mTV313XwQ==
   dependencies:
     "@aws-sdk/client-dynamodb" "^3.1156.0"
     "@jercle/yargonaut" "^1.1.5"
-    "@medusajs/deps" "2.22.6"
-    "@medusajs/modules-sdk" "2.22.6"
-    "@medusajs/orchestration" "2.22.6"
-    "@medusajs/telemetry" "2.22.6"
-    "@medusajs/types" "2.22.6"
-    "@medusajs/utils" "2.22.6"
-    "@medusajs/workflows-sdk" "2.22.6"
+    "@medusajs/deps" "2.22.7"
+    "@medusajs/modules-sdk" "2.22.7"
+    "@medusajs/orchestration" "2.22.7"
+    "@medusajs/telemetry" "2.22.7"
+    "@medusajs/types" "2.22.7"
+    "@medusajs/utils" "2.22.7"
+    "@medusajs/workflows-sdk" "2.22.7"
     "@types/express" "^4.17.21"
     chokidar "^6.0.0"
     compression "^1.8.2"
@@ -1687,130 +1701,132 @@
     tsconfig-paths "^4.2.0"
     zod-validation-error "5.0.0"
 
-"@medusajs/fulfillment-manual@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/fulfillment-manual/-/fulfillment-manual-2.22.6.tgz#65b04b74d2689a542b92e9d528d58cb69c7a3bb5"
-  integrity sha512-7/nIp6iJiDb/gnY/jA5/CklQfr3pLohTJ/dSM/Yk03aIu0WBHHc3GCw/oTUbh4uEY3UaqBGX72ALbd/xvKcAWA==
+"@medusajs/fulfillment-manual@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/fulfillment-manual/-/fulfillment-manual-2.22.7.tgz#4d17f31cc9da12a2ce9d86e3772a592df0edaff4"
+  integrity sha512-N4PccduWONweBzx1ErgAUZFLr68j7DXPUmKY2Wuv0BaqrBymqzVAxsTFtxrMRgpg8HwrFyzxVgMsEV0wFJU5zA==
 
-"@medusajs/fulfillment@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/fulfillment/-/fulfillment-2.22.6.tgz#025b811af5cc75565b82881c58dddff8bce00a2d"
-  integrity sha512-97crODb0C4pNkDXRCHX3Y6g4cRBC9Sqhsymvtc/KisUxQb9EftDom8k1fHnV20f6RJZ1HaWCscZ7Fr30a23a4A==
+"@medusajs/fulfillment@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/fulfillment/-/fulfillment-2.22.7.tgz#49063ada85f4a80a84353a71c502919e33f87aca"
+  integrity sha512-eg961gw1QhkJ1t/GPFT88PbVM/bxNS1FMTVB7MIa6gamdby1MThF4AdMYbIhHMksPLgp4pa+HxIfNZMIRdeUGQ==
 
 "@medusajs/icons@2.19.0":
   version "2.19.0"
   resolved "https://registry.yarnpkg.com/@medusajs/icons/-/icons-2.19.0.tgz#c875ae5bcd2a602973ae43c35f08374ec145f3bf"
   integrity sha512-k0JnPGVzAxzToWcbTEg8ReXNie9jAe0k3BC630BUHENaMETM+HT+w3kVD6Q6rFNBqQEMH8mRivecHRd0TStiLA==
 
-"@medusajs/icons@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/icons/-/icons-2.22.6.tgz#c62b63821db043565c2804b7bcf6415774c281c4"
-  integrity sha512-PMWEJm+NC/6eSKP8cMtjuJ9gaZLqVxBTmwzqz0IKJ3IUalGP3zSKl+SKD7xvG4B4VWt9uQMKp33gw9IlrCtEXA==
+"@medusajs/icons@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/icons/-/icons-2.22.7.tgz#dfe616b8ae8f46eb4d6a58fdc3a5f9fb4d795b16"
+  integrity sha512-PNWwc+jWaB4gIvfxbnaE22LMfsgWeWjzVtYS2GoD/gLNFK7e7Ix4fcW6Vck3NIpbxtppsgqy1+geeXpQ2UoXgQ==
 
-"@medusajs/index@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/index/-/index-2.22.6.tgz#d5d127b2942fd84fe3ed2ae88faf7649269bda72"
-  integrity sha512-64WbuxSJqXNL2rRQOJ/+NU9hOP/o/4QhWVlsqTNDfg4vkE5bcVvIi9klLykfHKfOxbMhLpGpWbRrVwlq0TXVSw==
+"@medusajs/index@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/index/-/index-2.22.7.tgz#6354f06c5724c7410fdc75a1c4d91616315ac7e9"
+  integrity sha512-sklPeKQP8flW9ojK6Pw5yqVl7sc4sEGUhdSIcXqFDArOh2jRI2xD91S5wP+532Gno+NTB70AU1W2Wxz+YrLT1g==
 
-"@medusajs/inventory@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/inventory/-/inventory-2.22.6.tgz#a62951c512c65f34322ddb6e2a31564659c14dc0"
-  integrity sha512-oeK1tu3xB2Dp2nTzJ47Latz8FbgS2xjPaJRJEnkdERiPOJCDrKfaEP+N71j+jhr8Qd984zGfpfuNTfJjstyTMg==
+"@medusajs/inventory@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/inventory/-/inventory-2.22.7.tgz#6ec7baf0354cd4c3451b491e7585f587d28e439a"
+  integrity sha512-KK+hH00QDK1WWmhqwkFB1EGMKMV3vp6l0yNNTA/zRx9vun4TuXrhhIGwYIKEYNAO2DY0rSb7BF+3B4WGV+jXdw==
 
-"@medusajs/js-sdk@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/js-sdk/-/js-sdk-2.22.6.tgz#e7bc8c87437570c67db7505b5f10f584aaa6626d"
-  integrity sha512-YGYUytnY9GaRyaNVKTrwq68y98GYMqrdEqmobp4N0+Iym9fV/LLUZNCQ3TQViTi/MVLBSpgf50oN6Plhc3ahdg==
+"@medusajs/js-sdk@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/js-sdk/-/js-sdk-2.22.7.tgz#85932b066509ddcbac8b56785c0cc540384c128f"
+  integrity sha512-YPPtYAM17ZOCJkCFkZVAXnIsGNAPYUwzdIktlR20UFvU5hNrhLMzvBQk+L+VmT4fmYe42GVTcR+jm8LN36mOTw==
   dependencies:
     fetch-event-stream "^0.1.5"
     qs "^6.16.1"
 
-"@medusajs/link-modules@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/link-modules/-/link-modules-2.22.6.tgz#f4a5bf050a79cc1efad98287a8f41ffb2463ab14"
-  integrity sha512-Gw/I3fVAbnG35jTwxF30zY7TcR2RUwvTIUH4sq1/Qbqhj/+My/tla3tisdKt5Ispmiyv31d/uPKf7ORRvWa+0Q==
+"@medusajs/link-modules@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/link-modules/-/link-modules-2.22.7.tgz#92df67799da04be4249a1aef6840c3601c602338"
+  integrity sha512-LlQ8rRH8+U3o5aSPYX7EvmOi7BBM1xjshfG9Asr2auBUz5S750Q339KRJMwJ3mOph4Zdes0EYVn+6mMQyOeqxQ==
 
-"@medusajs/locking-postgres@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/locking-postgres/-/locking-postgres-2.22.6.tgz#a43172c89409767f05974e072ffde3513b798d3b"
-  integrity sha512-vnrHi0y+GNiPiDSfzlXFfvcfVFwLmwyJEVOFv22RxdXXlh4O6s4MntwzknJLt0dCMif1qgFy4FSeYdJnB1bHIw==
+"@medusajs/locking-postgres@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/locking-postgres/-/locking-postgres-2.22.7.tgz#440a2e472830abff6a6edb5753db8d848e3f6726"
+  integrity sha512-+kegsAIn38iCivNs7jyvJbhAN/RHzj322sZMLVjkiiF8PK/TChbud9ko41ABL0PZNH7VQDLgY4qdQcIq1/0Syg==
 
-"@medusajs/locking-redis@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/locking-redis/-/locking-redis-2.22.6.tgz#3f7acb80710e9dafb6e2df63df85b85c5c0c3f0d"
-  integrity sha512-ugHDkd7H37q5hOvdK43xcKJdG/QG8w3o57VrXBEblyDxSvCeyKPjpCW/fzFU1IRquO4CnQ9kHiW1j3fUxGLkvA==
+"@medusajs/locking-redis@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/locking-redis/-/locking-redis-2.22.7.tgz#7a5a97964892d49fb1105d05615ef9fb02c176ea"
+  integrity sha512-5nPMJZ2+GH8WE+x4GrtppBshHUuXmm1CWY5ogbVuvD/FBl85TqgymZs3qzNal9fiMwyQLRWFHZ1DVLtnJtCG+A==
   dependencies:
     ioredis "^5.11.1"
 
-"@medusajs/locking@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/locking/-/locking-2.22.6.tgz#07ee516104bafd19382ce755297977485c39b88c"
-  integrity sha512-xigORlPIp7EUgCFapotnMOqbtNYgkDBnIYNBWrZ+pw8YjmwHmwvh3BS+iVxgQ9Cxn33cFYSczCOe8V8li1JELg==
+"@medusajs/locking@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/locking/-/locking-2.22.7.tgz#1e1a5590e3ff30f24332727ddcff8a803d3b1441"
+  integrity sha512-xHWPuwwL3YXsQ4zt1sXeHPm4AN0erfmeFnw57IRpYbOHZM/MvqE9w9cE6NghAfacbCbluKa12yD0JKUX6yBRpw==
 
-"@medusajs/medusa@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/medusa/-/medusa-2.22.6.tgz#0f6c6cae90881d45eeba3ad1af6a4681309803b5"
-  integrity sha512-c86WwvGszio2aB5azIF0LgUnrOiQcIbQJy6L+hguzN9DJFOKt2Gf60K6ro6h1qlC7zfAYRBJdSQV7/YbXWlgzw==
+"@medusajs/medusa@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/medusa/-/medusa-2.22.7.tgz#c1a602d22b3628549cea43c9df3a1b848b83cc41"
+  integrity sha512-VnmDEISuCU0emLE1Vr5NR4UpyRUJcIZo8maVQwjWjbz/Ji6rBD65dtXEFyycMvrHMU9zBpVcTSNo2Qo+6++TNQ==
   dependencies:
     "@inquirer/checkbox" "^5.2.7"
     "@inquirer/confirm" "^6.3.4"
     "@inquirer/input" "^5.1.8"
-    "@medusajs/admin-bundler" "2.22.6"
-    "@medusajs/analytics" "2.22.6"
-    "@medusajs/analytics-local" "2.22.6"
-    "@medusajs/analytics-posthog" "2.22.6"
-    "@medusajs/api-key" "2.22.6"
-    "@medusajs/auth" "2.22.6"
-    "@medusajs/auth-emailpass" "2.22.6"
-    "@medusajs/auth-github" "2.22.6"
-    "@medusajs/auth-google" "2.22.6"
-    "@medusajs/auth-oidc" "2.22.6"
-    "@medusajs/cache-inmemory" "2.22.6"
-    "@medusajs/cache-redis" "2.22.6"
-    "@medusajs/caching" "2.22.6"
-    "@medusajs/caching-redis" "2.22.6"
-    "@medusajs/cart" "2.22.6"
-    "@medusajs/core-flows" "2.22.6"
-    "@medusajs/currency" "2.22.6"
-    "@medusajs/customer" "2.22.6"
-    "@medusajs/draft-order" "2.22.6"
-    "@medusajs/event-bus-local" "2.22.6"
-    "@medusajs/event-bus-redis" "2.22.6"
-    "@medusajs/file" "2.22.6"
-    "@medusajs/file-local" "2.22.6"
-    "@medusajs/file-s3" "2.22.6"
-    "@medusajs/fulfillment" "2.22.6"
-    "@medusajs/fulfillment-manual" "2.22.6"
-    "@medusajs/index" "2.22.6"
-    "@medusajs/inventory" "2.22.6"
-    "@medusajs/link-modules" "2.22.6"
-    "@medusajs/locking" "2.22.6"
-    "@medusajs/locking-postgres" "2.22.6"
-    "@medusajs/locking-redis" "2.22.6"
-    "@medusajs/notification" "2.22.6"
-    "@medusajs/notification-local" "2.22.6"
-    "@medusajs/notification-sendgrid" "2.22.6"
-    "@medusajs/order" "2.22.6"
-    "@medusajs/payment" "2.22.6"
-    "@medusajs/payment-adyen" "2.22.6"
-    "@medusajs/payment-stripe" "2.22.6"
-    "@medusajs/pricing" "2.22.6"
-    "@medusajs/product" "2.22.6"
-    "@medusajs/promotion" "2.22.6"
-    "@medusajs/rbac" "2.22.6"
-    "@medusajs/region" "2.22.6"
-    "@medusajs/sales-channel" "2.22.6"
-    "@medusajs/search" "2.22.6"
-    "@medusajs/search-postgres" "2.22.6"
-    "@medusajs/settings" "2.22.6"
-    "@medusajs/stock-location" "2.22.6"
-    "@medusajs/store" "2.22.6"
-    "@medusajs/tax" "2.22.6"
-    "@medusajs/telemetry" "2.22.6"
-    "@medusajs/translation" "2.22.6"
-    "@medusajs/user" "2.22.6"
-    "@medusajs/workflow-engine-inmemory" "2.22.6"
-    "@medusajs/workflow-engine-redis" "2.22.6"
+    "@medusajs/admin-bundler" "2.22.7"
+    "@medusajs/analytics" "2.22.7"
+    "@medusajs/analytics-local" "2.22.7"
+    "@medusajs/analytics-posthog" "2.22.7"
+    "@medusajs/api-key" "2.22.7"
+    "@medusajs/audit" "2.22.7"
+    "@medusajs/auth" "2.22.7"
+    "@medusajs/auth-emailpass" "2.22.7"
+    "@medusajs/auth-github" "2.22.7"
+    "@medusajs/auth-google" "2.22.7"
+    "@medusajs/auth-oidc" "2.22.7"
+    "@medusajs/cache-inmemory" "2.22.7"
+    "@medusajs/cache-redis" "2.22.7"
+    "@medusajs/caching" "2.22.7"
+    "@medusajs/caching-redis" "2.22.7"
+    "@medusajs/cart" "2.22.7"
+    "@medusajs/cloud" "2.22.7"
+    "@medusajs/core-flows" "2.22.7"
+    "@medusajs/currency" "2.22.7"
+    "@medusajs/customer" "2.22.7"
+    "@medusajs/draft-order" "2.22.7"
+    "@medusajs/event-bus-local" "2.22.7"
+    "@medusajs/event-bus-redis" "2.22.7"
+    "@medusajs/file" "2.22.7"
+    "@medusajs/file-local" "2.22.7"
+    "@medusajs/file-s3" "2.22.7"
+    "@medusajs/fulfillment" "2.22.7"
+    "@medusajs/fulfillment-manual" "2.22.7"
+    "@medusajs/index" "2.22.7"
+    "@medusajs/inventory" "2.22.7"
+    "@medusajs/link-modules" "2.22.7"
+    "@medusajs/locking" "2.22.7"
+    "@medusajs/locking-postgres" "2.22.7"
+    "@medusajs/locking-redis" "2.22.7"
+    "@medusajs/notification" "2.22.7"
+    "@medusajs/notification-local" "2.22.7"
+    "@medusajs/notification-sendgrid" "2.22.7"
+    "@medusajs/order" "2.22.7"
+    "@medusajs/payment" "2.22.7"
+    "@medusajs/payment-adyen" "2.22.7"
+    "@medusajs/payment-stripe" "2.22.7"
+    "@medusajs/pricing" "2.22.7"
+    "@medusajs/product" "2.22.7"
+    "@medusajs/promotion" "2.22.7"
+    "@medusajs/rbac" "2.22.7"
+    "@medusajs/region" "2.22.7"
+    "@medusajs/sales-channel" "2.22.7"
+    "@medusajs/search" "2.22.7"
+    "@medusajs/search-postgres" "2.22.7"
+    "@medusajs/settings" "2.22.7"
+    "@medusajs/stock-location" "2.22.7"
+    "@medusajs/store" "2.22.7"
+    "@medusajs/tax" "2.22.7"
+    "@medusajs/telemetry" "2.22.7"
+    "@medusajs/translation" "2.22.7"
+    "@medusajs/user" "2.22.7"
+    "@medusajs/workflow-engine-inmemory" "2.22.7"
+    "@medusajs/workflow-engine-redis" "2.22.7"
     boxen "^9.0.0"
     chokidar "^6.0.0"
     compression "^1.8.2"
@@ -1823,139 +1839,139 @@
     request-ip "^3.3.0"
     slugify "^1.6.6"
 
-"@medusajs/modules-sdk@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/modules-sdk/-/modules-sdk-2.22.6.tgz#d6867ab93fe732a2e9175f803b67ce645b67626a"
-  integrity sha512-vStqySv9C11I27QPLp0orSiFnXKdAlGtYcnER/wDzljmdJ2wV+5IswUnTaML6vr6Qt28BifT34ib494e47hhYA==
+"@medusajs/modules-sdk@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/modules-sdk/-/modules-sdk-2.22.7.tgz#6104abe11d28346d4a816a934507e2271114aa1c"
+  integrity sha512-ww6aiP8NsSgJdzWo98ph4WA9SeJ0jDeAqHX8aELLqJiBrHY36U7wcLegH6ShaMEXrhG74/7PufOFgbpX6jA3SQ==
   dependencies:
-    "@medusajs/deps" "2.22.6"
-    "@medusajs/query" "2.22.6"
-    "@medusajs/utils" "2.22.6"
+    "@medusajs/deps" "2.22.7"
+    "@medusajs/query" "2.22.7"
+    "@medusajs/utils" "2.22.7"
 
-"@medusajs/notification-local@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/notification-local/-/notification-local-2.22.6.tgz#5f2e5bea8a9a8386b7c7d703ce324a017bf70b9f"
-  integrity sha512-4yxBhRQj3Xk7iuiufdRVao9nd2M1+nyNWtMeCL5ZUFypikQYJ2W2TkCu0hzJ3AlUfLkbx3jfQkSvuopOAR1JIA==
+"@medusajs/notification-local@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/notification-local/-/notification-local-2.22.7.tgz#0bd39f2b6982ba4a8166825055cfaeb63bd6b7f6"
+  integrity sha512-2l7APlFgeJZAGEJGMTYQO90MoI3rB0QWgoin0NqLbknbael2OtXb9iGlytbmPKko23e92xMG1VvKne6FK9rt1A==
 
-"@medusajs/notification-sendgrid@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/notification-sendgrid/-/notification-sendgrid-2.22.6.tgz#45bc48a6af9a8f37a1a83f406d7549af36555c5c"
-  integrity sha512-C+KJ9CwUGxAehuQBA5X4caJz+n0iz39U/DzRuZ0Q3QrexqWMvbn3gblm8XFqiX8gJeTHAP/Tpowj5FY8HbXt+w==
+"@medusajs/notification-sendgrid@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/notification-sendgrid/-/notification-sendgrid-2.22.7.tgz#d9a71ae4e1c3245cb4e0fde0d2f3d8c5318633bc"
+  integrity sha512-rrgFtuATGchqF7HzOFJEXqMtRBJV+c1yV70J3b6kKPAP7OMLnQHuJwx0Qirs5YJcHXbJ1nigNQgl74Iqxjjl5w==
   dependencies:
     "@sendgrid/mail" "^8.1.6"
 
-"@medusajs/notification@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/notification/-/notification-2.22.6.tgz#c33ca7866248e483aa177244909e339df58bccf9"
-  integrity sha512-LL20SorlQn0NqXeuL8NReVV4r75p7BdUxQTeS9gmYoGvbtaDky4+9Ayps8kEMTOPDRzJdyvdKykAoziSslAsRA==
+"@medusajs/notification@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/notification/-/notification-2.22.7.tgz#41a1094596e6eef1c9552d3fcd7ac0f4d940c6f5"
+  integrity sha512-Xy/RhwMbEkhurR2wWEMrbfpRLVog9QCgRliI8LH0vhdxUFPZH/iRMQs7trf4rBr/pWEYIOevhoifJC+lXqCs+Q==
 
-"@medusajs/orchestration@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/orchestration/-/orchestration-2.22.6.tgz#1cea00b48c0b960307bc19eaa3c8d78f4158393b"
-  integrity sha512-/WZ4TKtvq+TQ/kNV8Fl3AyoUkftSojgm9E4fHmrQxvInvz+F5URY1SRvxCq6G9tDYc/F+NgI47IQIT5QKMvbAA==
+"@medusajs/orchestration@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/orchestration/-/orchestration-2.22.7.tgz#dc9c2595ae608d6ee28f1e47fef7bb1679e225d8"
+  integrity sha512-m3wZ5OYfLgAq/kQbANoiBvbAqDod6ZihDGFcusMDSpxH91ZD2pisKIHTbo1UIsm71aZvgQFVXOf/JcPm74B3kQ==
   dependencies:
-    "@medusajs/deps" "2.22.6"
-    "@medusajs/utils" "2.22.6"
+    "@medusajs/deps" "2.22.7"
+    "@medusajs/utils" "2.22.7"
     ulid "^3.0.2"
 
-"@medusajs/order@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/order/-/order-2.22.6.tgz#65f42f95844d3f1a0fb5bfd07280cb0b073e3b1b"
-  integrity sha512-/p6csxj3cQJgitmn4V2hQFxvxCEoO3ujs7ScvKRHyrW1Kp9De9Ka972ZNX4kzokWNuGNDPFUt5theBYRWF5yCw==
+"@medusajs/order@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/order/-/order-2.22.7.tgz#fed6b7dea293c26797f92880c535557d9a90c304"
+  integrity sha512-XQB9xMPvgtxGzCLPdAWitzcOIPCQEAnaKHg/ANxpc18hFUbV0IHbl7UaVcS1FB/cTZ63nF0KBFQCU7M2QB0usA==
 
-"@medusajs/payment-adyen@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/payment-adyen/-/payment-adyen-2.22.6.tgz#c3d83ba74576c8e825deee4ceb32157f0f843b95"
-  integrity sha512-6xKx+cIAVx74BdzWWpuYxzzSdtF/K/nU72y+ArPnmZ/ShTbq/Xa8qLMxG3PQBeZs4lV5o51J132jmYrr7pxcwg==
+"@medusajs/payment-adyen@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/payment-adyen/-/payment-adyen-2.22.7.tgz#47efb23280677cc249d42cc97d29ca7a199cb610"
+  integrity sha512-4JAtVkPRJF/qlsAQIBUGMqtKq3tD9eN5ToZ6c/4dEhvxOpRWxSaGXY34rWGD3KuLZ0I2bq8sZoNKu7FsniUeaA==
   dependencies:
     "@adyen/api-library" "^32.2.0"
 
-"@medusajs/payment-stripe@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/payment-stripe/-/payment-stripe-2.22.6.tgz#a8e27502fa18d8307fc1ed54f0de1090e1086b99"
-  integrity sha512-wM4jQehZofNoOEcvZZbctz+iUw14MT/pe49Gy/ZNVeIS5gz66Dr836AFMUxw778ceNt5N9FfDKnAn1qC4dpWRg==
+"@medusajs/payment-stripe@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/payment-stripe/-/payment-stripe-2.22.7.tgz#c2ba9832a866d0b34802493a821f26db6f084fd8"
+  integrity sha512-1sniuR7PPAA31hxMu1opAIEeUTRBnxK9WRH+B+4k5XzL53vjh473MlBcOUPAk/v0aeXSbGmN46HjfkCbN5/K6Q==
   dependencies:
     stripe "^23.1.0"
 
-"@medusajs/payment@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/payment/-/payment-2.22.6.tgz#ab801e227b1750577215663826a76753a07285a3"
-  integrity sha512-AuUZfjFjD7eqJQcZZir043AeUQy9aFRJso+m6iSEczGzdRnSLsVHRhzvF+L8gE9u5cYuAewKej58PddgtPRF1w==
+"@medusajs/payment@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/payment/-/payment-2.22.7.tgz#228e3e45f06526437bebc3f89988af1a29f28308"
+  integrity sha512-Sqh3MLUDchATbyhXrPlxCCM7FCXjXvHUvWjPKGPqaddSdJMgxpZiNsy3d0//4yuTqj2VS9iIVs1EFRwBEy+J7g==
   dependencies:
     stripe "^23.1.0"
 
-"@medusajs/pricing@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/pricing/-/pricing-2.22.6.tgz#0c6b463abf332115face24b839737f1af476674f"
-  integrity sha512-TZR0RLBB6mkrvWlEKy3miqzvppPN4fE0G3mAH76z8Dib2Cy0ohawGo5ayhnmx0VVoc2CPmGgBj1CC9/r+DWssg==
+"@medusajs/pricing@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/pricing/-/pricing-2.22.7.tgz#653dcb196cbced5dc816e65fef38c37d10f1d610"
+  integrity sha512-wqKrnYTEC2ljldbKIR3g8NeUIKN8TS8roDhy1tVtauJp85eXEFBGtzkWvLoDLpas+uRSCSqW2R+OIzio7WLMGQ==
 
-"@medusajs/product@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/product/-/product-2.22.6.tgz#753ccc0a84c3dc355f947eb71c9698f966076691"
-  integrity sha512-6WeoQHJzxgW0Uw3uiUfizv5JxhOxQFHBJE6AoLY1Ivdl+8/c5oRCzrT9lF42PQ/4kkhrhKNZ2IOZ/zazQhKVYA==
+"@medusajs/product@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/product/-/product-2.22.7.tgz#9d0fd227db5162d37cd1485dc4ce86dca870dcae"
+  integrity sha512-f9dh8J72efW1nwhWyiY7aCQesXalNTWG04k9Q8JpWkNu9rOLP6WXqnqGOx6gMVdNWsRLswF0Q8E4hPFFzYqM7g==
 
-"@medusajs/promotion@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/promotion/-/promotion-2.22.6.tgz#8b656eb93d51893d7a22d99c2895283049583053"
-  integrity sha512-lCqFujxCz7KnczgRzx1gI6w2akE6hVhT7RRg9WMdcmiKbQHGH5Pv/R+5XmO5FMBE1PEps7WXIXWdPBfUnbdU9A==
+"@medusajs/promotion@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/promotion/-/promotion-2.22.7.tgz#0533564fc4f540bb9bf3e9303b1762cef4a331fa"
+  integrity sha512-QOQErr88Aev1pjpJFjqmD4w83BS1Th6oY6tD8B8KouQTFjMJuttwjYKvMus0NxRdp8vJZ/LODiHnCeYklGYqag==
 
-"@medusajs/query@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/query/-/query-2.22.6.tgz#34dc15b195785c077957ba809ef399425dd69445"
-  integrity sha512-HIlNKwhod16YoUPOQssa4BpjIOxtUHHttu5722GbsOWRSAXtncH035nLNRwXMPwJSQmje0siZ5g0SKcbaoI/Gg==
+"@medusajs/query@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/query/-/query-2.22.7.tgz#6cdc86cac93d0cbe71671ce76d907c38ecb2ae48"
+  integrity sha512-RxI+F1jUNf1flGQMEdgGyUOgzyWPRq9jMKI3ts/o+LLR2E5aCQleEQokLCQzdeOoYSYg1Ml0cixZiZqiAuB5VQ==
   dependencies:
-    "@medusajs/deps" "2.22.6"
-    "@medusajs/utils" "2.22.6"
+    "@medusajs/deps" "2.22.7"
+    "@medusajs/utils" "2.22.7"
 
-"@medusajs/rbac@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/rbac/-/rbac-2.22.6.tgz#bbf4b44bcab2da295c7513eb86b34d65447d275e"
-  integrity sha512-6ZXxT8Rg2ur221TordlrS6LsoPaEfGiIqI0pRjcMOpNK6itWxBbYSACWLOHka3bbj0J/9tPjwdmULBXikJs/QA==
+"@medusajs/rbac@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/rbac/-/rbac-2.22.7.tgz#3a18fd395d4163838a31d3d45ed33634c5d3fab8"
+  integrity sha512-QyC4MsoI6jaV6FhFGyMDqGVAoBCjozI+tOpq296ik+qMs1XDTB4baKN+1iiQN3vhrx18MJWUi97vlacJehsJsw==
 
-"@medusajs/region@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/region/-/region-2.22.6.tgz#d10ff902295fc9a76182626bfcaf7cb03f0b31e8"
-  integrity sha512-1rqmbPH8j2yCfuin2AkCC1tP2xLQeefGY8yDKCMJvm5k9oelvrg4ZBWQ9CMYqwPRl7yMUh3qkFbuw+idguTF9A==
+"@medusajs/region@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/region/-/region-2.22.7.tgz#0bba85989b0faaf10bf5f42f2fe9d111c42245b5"
+  integrity sha512-Bt+bAfDjZ5PabUkTMCdwPMNyIzFmfkFyR1mad3mgSBdEBYnBR/uvQUTMWjjS38m6b9rm4wS7XrF5fXeGy5x4BA==
 
-"@medusajs/sales-channel@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/sales-channel/-/sales-channel-2.22.6.tgz#61cb1d920c24d3467e9b41a8dfd3e5b4a0c18931"
-  integrity sha512-3V1AeSpgkN6alvpCB4C0dGXoTHwQel27DfzXdxPGiSLugNcdZZ6ex1qdF7Q3jN6jDGlhRkVPcJVPEKppw42+Gw==
+"@medusajs/sales-channel@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/sales-channel/-/sales-channel-2.22.7.tgz#e592de6791ba50953bc45570e81ca240d2912ef8"
+  integrity sha512-85Pto9kreHnra6OLEmXOQH1tOJWVHkA8VqeUHAnlIAT4ocf4pUym90YhHOPKOaZsX0D/YzFLmsHenJvPz/BSfQ==
 
-"@medusajs/search-postgres@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/search-postgres/-/search-postgres-2.22.6.tgz#c65d0fd495698e12eb096b515c1619ef5af39380"
-  integrity sha512-TVPbXqqq7tJbEGOBRrw2rxrdB8maJ+rbC71MQZcZk09aQXaRLDPXJXBYsRG/ynnGRTtsrty+hNL6LVr0qxTjlA==
+"@medusajs/search-postgres@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/search-postgres/-/search-postgres-2.22.7.tgz#64df41cea8c697758b1ed3edbfa55b530e5fd9c3"
+  integrity sha512-/OdSRkjvPwKdEilRsgKn3JUGg9NuCf6SUGUdHAY7GuKc8EJ4j8QJ/cdQlfZsKCyGa2AiuAgSBA0AnbPW4YalXA==
 
-"@medusajs/search@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/search/-/search-2.22.6.tgz#eb589158372945ece6d72fbd7d2fa61d2c1aaa6e"
-  integrity sha512-R75IcdtaxB+c2zUuBPFRml5xxpge1uYcPD1g7hK7iRmD+RwstapWxrDOaVdzy547RUgbxWVEaWYmYkSYEPqLCg==
+"@medusajs/search@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/search/-/search-2.22.7.tgz#b63bf801fbe9b9bdd2bd807c5c464cecff1ff6ee"
+  integrity sha512-trfTQkd/7LDwzwn34blJb13VLYu059ehT2cA7lCp5EeiJtCQgGy1+F4hOKm8levdOm0dfUQbCK81Wqav8NitMg==
 
-"@medusajs/settings@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/settings/-/settings-2.22.6.tgz#7fca5738187b9d5c93405adf5e94f349603af4d1"
-  integrity sha512-xolQg8IiTBXDoID3tYvLscLbBZ0MueM2EA/JwQlmnf9Cd0WAmsFAJoQMOXZjQnJQqM66Ac1rj9ENMqKFBmKqTg==
+"@medusajs/settings@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/settings/-/settings-2.22.7.tgz#71faf8e90af770ef48718db1915bf031930a8936"
+  integrity sha512-ZQKNsl/mN6M3Lro5wnWRovpDtQdpiL8TX4xZNtNuOc3durOLc4lTZ9pt1jMON4OWpGBj7G+56oUDkj9EEqhkTg==
 
-"@medusajs/stock-location@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/stock-location/-/stock-location-2.22.6.tgz#d6eb1a925930269a22c6d6fcbb7b75f6308afc0f"
-  integrity sha512-YXleAQCA7HugTK7u4qLuIBkejMbiIxReJPpWC7wLYq3f9iNMGZQ2MZYZ3UhLHEOLj0ioJvRrm1QN9CAyffHHFw==
+"@medusajs/stock-location@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/stock-location/-/stock-location-2.22.7.tgz#92bd4f24780d04f91330bdd63a97ad689c359ae2"
+  integrity sha512-ykY2VW7TBEbV/wWvlaYB5WVDEY0Om6wrwL6DiwU8BWu3d/D9J9m/SREm4VtifqyKuwO6gogfmliz4PYVPrVWIQ==
 
-"@medusajs/store@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/store/-/store-2.22.6.tgz#00e103005410fd3d5bd28efead4e5a7bc5e69899"
-  integrity sha512-wSB27kqPBstkQnv5B5QfdHd1LCF75IQTZpx1n1nJ4Nuj1/iEUpZK9WRZalaSyO8wP1QJnTrJ1lgkPhGfWHoGpg==
+"@medusajs/store@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/store/-/store-2.22.7.tgz#7c335b3f95b4b3dca8edde450fb03f01c99d29f2"
+  integrity sha512-KWuSml7EQsR34EqxIBQb0kR2GJWcgT5pJGlEoOtLcnLuKdzvJ7zHCssonPqw6+PsWqq/QpoaUseuWSssuOlIUA==
 
-"@medusajs/tax@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/tax/-/tax-2.22.6.tgz#126b89b2a7b7bf9f2c21d71c7910fb1e6a428bae"
-  integrity sha512-6M2nG/7OqMp+aMWcwBP1ehJaGgNmNErX91d9BiEvAtkyBA2sv20kVZu+/nf2ifbneepD6bkd4YVX/xB/RDqG3Q==
+"@medusajs/tax@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/tax/-/tax-2.22.7.tgz#ba0dc44fbf6811c3113686038858ad8ea624e1fb"
+  integrity sha512-pjhw7OJW8FLzxhOak4bkb2tuSxITFUiXeDsyxR4nrQN8Cp6xb10fVCHTYL7cqf8KGS0xnMxCAh9PYfcYIezC9g==
 
-"@medusajs/telemetry@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/telemetry/-/telemetry-2.22.6.tgz#fb81defdab3ec71428217f144e279ec5dfcbbeeb"
-  integrity sha512-cOlz0TAeMo0xL0tsHlwbOsd84ezpzShgSbn6R5jhqZEIvYH/5UmNDoNqhMeEUrbLidpUjD104d+rIEphl5CNPQ==
+"@medusajs/telemetry@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/telemetry/-/telemetry-2.22.7.tgz#8fbe015846e6298cc9059b2c381d19c2ad225550"
+  integrity sha512-kkGjuPbMpTB2HtcoSn3geRw7JP/iabw4VmzIc1lVrdSfSX4hmeAUXc8yLDnlLITZhR4J/r4wexeYWkpcxTyyXg==
   dependencies:
     "@babel/runtime" "^8.0.10"
     axios "^1.20.0"
@@ -1966,25 +1982,25 @@
     is-docker "^4.0.0"
     remove-trailing-slash "^0.1.1"
 
-"@medusajs/test-utils@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/test-utils/-/test-utils-2.22.6.tgz#93399e02b9364d4d4b1b70f3074dec05a0cffccf"
-  integrity sha512-ov9k9wSQxp/eGCGKbfOf8YS0doz7V8qvuCcsrm1OwjeTtpQbf8Vi0fFRDalkszomnAubMVUaAORFnk2NCaMBkg==
+"@medusajs/test-utils@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/test-utils/-/test-utils-2.22.7.tgz#9bd70d29d5d5504f6a31634c5e2e2bdf5d4acdd6"
+  integrity sha512-vc9NoiUYpVxU41jvHP6QyflXBtbSss2jpvVY391ZSlJb0/WF9FbtBVKyqFOURSfnNvM+vSMadD6kiBLSIDw6TQ==
   dependencies:
     "@types/express" "^4.17.21"
     axios "^1.20.0"
     express "^4.21.0"
     ulid "^3.0.2"
 
-"@medusajs/translation@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/translation/-/translation-2.22.6.tgz#d5ee3340a9ad8c8bdf0b2b47388a2538882e6e8c"
-  integrity sha512-dVmFVNb6qYmPlasV01zq46TyWRaAUjulLise6O+hOO/tx/gUNO+LJSjT/kEPbjoCxgH/g9597OYZsIf43thXAA==
+"@medusajs/translation@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/translation/-/translation-2.22.7.tgz#ea2c7961577a3c98faa882654e0d2676f9bfa9b9"
+  integrity sha512-hmGoAiAM0SvgrCmTNK416qgmUV/riD3ukUR/YEpGuq9fOzLFcL/+XmdKbUfqaZ26H8TT9SpugW9q+gvTPlXuUw==
 
-"@medusajs/types@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/types/-/types-2.22.6.tgz#bf6276abf37b838c18a195e9109ab0c487ce8de1"
-  integrity sha512-SNPY7Scxsq7N4PK63bSCfCjbPm4glkYmqGNLHXu+F5P9vjPtd3hAL790nvk/JyWgAf6dOHrVp22261391q0bVw==
+"@medusajs/types@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/types/-/types-2.22.7.tgz#ab73c8035dd8526ea83473b1f3bff9f02828bae9"
+  integrity sha512-7DNtQg7XwGVrP4N85wH4/3WAq42Ibw4dzgDm6l8XqUxG0RxC6Qm5JEp/134KwPywy4n0GdMVy5gVsVzYT7bb8Q==
   dependencies:
     bignumber.js "^11.1.5"
 
@@ -2013,16 +2029,16 @@
     sonner "^1.5.0"
     tailwind-merge "^2.2.1"
 
-"@medusajs/ui@4.2.13":
-  version "4.2.13"
-  resolved "https://registry.yarnpkg.com/@medusajs/ui/-/ui-4.2.13.tgz#b6b63e1dd7f0c388cffab95845fb3a64664fb114"
-  integrity sha512-19+UX740BGoTskmY+e78fkMclIYfTpu5eAHUfEXhFhPizI7AGPmXPvH+hsHhOwiLXt6xQjV+XYAzjbc01QslAg==
+"@medusajs/ui@4.2.14":
+  version "4.2.14"
+  resolved "https://registry.yarnpkg.com/@medusajs/ui/-/ui-4.2.14.tgz#c51569b0f96221ff6bb31c0483f242c3f4cc3c67"
+  integrity sha512-AEBQqpvc12V3PNiwlLICjCnv9g01O47Mfq9RHxWLW3p+Wcyo9mw0P1npdUL81SjWFwKotaEBnk0JJYX8+lPoeA==
   dependencies:
     "@dnd-kit/core" "^6.3.0"
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
     "@internationalized/date" "^3.12.4"
-    "@medusajs/icons" "2.22.6"
+    "@medusajs/icons" "2.22.7"
     "@radix-ui/react-dialog" "1.1.4"
     "@radix-ui/react-dismissable-layer" "1.1.4"
     "@tanstack/react-table" "8.20.5"
@@ -2039,23 +2055,23 @@
     sonner "^2.0.8"
     tailwind-merge "^3.7.0"
 
-"@medusajs/user@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/user/-/user-2.22.6.tgz#8a32605d6aea615b9a189c84a3dcf6ccdc06f224"
-  integrity sha512-W6JZJWMtEhbu27UAQwUgQji11oPgvRmj2UQihy6JKp+JTwZwJ7uLt3aiHTSQDZ7PIRjR/n2QLYaWYgw9FVE4WA==
+"@medusajs/user@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/user/-/user-2.22.7.tgz#3fdb93ec943626d27746aa3114fba56424df0a3c"
+  integrity sha512-BiOovbOt9hJzHAeR+WEAcsv5j5hcfy9d45l/hIwqmMHuEAIhheBdQHehVbOorMbeRST6gxH2/GtQNyqa06J3sw==
   dependencies:
     jsonwebtoken "^9.0.2"
 
-"@medusajs/utils@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/utils/-/utils-2.22.6.tgz#fa84cedb7137e083d43afbc5f18ad703406d0055"
-  integrity sha512-9SJuY2b4LFpBKWsuLYze8FPeEn4pRqFkf6FcVGHBsG5iebq+idQqSNzrl5j/sreKEdkqRo+DUkD7HYh2+HW8UQ==
+"@medusajs/utils@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/utils/-/utils-2.22.7.tgz#7b32a1b0ecd17ff5e5d013145f43a958c44acac3"
+  integrity sha512-N8/liwK4bJbsGn09SKbdkslj+V2ywz7VkHh3ZWtQ9fXHjwXzm4BCbppHJxo1HkUVrVMCqKlHI/nErkW9QzZ0+w==
   dependencies:
     "@graphql-codegen/core" "^6.2.2"
     "@graphql-codegen/typescript" "^6.1.2"
     "@graphql-tools/merge" "^10.0.6"
     "@graphql-tools/schema" "^11.0.6"
-    "@medusajs/deps" "2.22.6"
+    "@medusajs/deps" "2.22.7"
     "@types/pluralize" "^0.0.33"
     bignumber.js "^11.1.5"
     dotenv "^18.0.9"
@@ -2066,32 +2082,32 @@
     pluralize "^8.0.0"
     ulid "^3.0.2"
 
-"@medusajs/workflow-engine-inmemory@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/workflow-engine-inmemory/-/workflow-engine-inmemory-2.22.6.tgz#1ea048cbfcd1a4137531a8386166a5864bb8129c"
-  integrity sha512-0WE/V9D2hFXyY+lTrYtsuKWAgHG1g68O2e5AwsQquhubEZDpp1OkEMWipNjD41gPh9FrBFdGpCMGglmRqa6v/Q==
+"@medusajs/workflow-engine-inmemory@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/workflow-engine-inmemory/-/workflow-engine-inmemory-2.22.7.tgz#37100261248c1651521dde155c4c172330284ab4"
+  integrity sha512-MEHm56UO0ypa3GJbQiOxL1es2eFh2e5VscVNsNUeBupC5RjEzdGcy3tIQitYTkz5PUNuRAS8fBiPESJWTBId0Q==
   dependencies:
     cron-parser "^5.10.2"
     ulid "^3.0.2"
 
-"@medusajs/workflow-engine-redis@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/workflow-engine-redis/-/workflow-engine-redis-2.22.6.tgz#ac77a42a7a9cc222a75941c9b370a6c29e37b0a4"
-  integrity sha512-5osewkI/jgCYZ0oDyz6nClLzgLOrq8zUbxJ2vFmMq3KP4bFbgECcPBhpCZvp+iG4r33pH5eZVZj2+fQLvYy6tA==
+"@medusajs/workflow-engine-redis@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/workflow-engine-redis/-/workflow-engine-redis-2.22.7.tgz#cbd49036a370647f5c5faaf4f164394ae65f2a30"
+  integrity sha512-Tenm6Dbk6JmDl3ZHN89mJas7kJxKE6gaN/xRw9Iua5FNaLt3pC0ubuORrhegIEeSqfFfhz5EYtAcyAKlW56yWg==
   dependencies:
     bullmq "5.13.0"
     ioredis "^5.11.1"
     ulid "^3.0.2"
 
-"@medusajs/workflows-sdk@2.22.6":
-  version "2.22.6"
-  resolved "https://registry.yarnpkg.com/@medusajs/workflows-sdk/-/workflows-sdk-2.22.6.tgz#4ce9000d224a7701532572d8a61a2267f39a306d"
-  integrity sha512-FkOqoWgkcVs5j9kkSruN8XVmi7JuROGungyov5eA3o9lwdWmipNxaevgC74wtuV0p0nKDRnK+3UhjCxofc0TgA==
+"@medusajs/workflows-sdk@2.22.7":
+  version "2.22.7"
+  resolved "https://registry.yarnpkg.com/@medusajs/workflows-sdk/-/workflows-sdk-2.22.7.tgz#a229b6287c27f58435f1defbd4ebb67102a8b930"
+  integrity sha512-T7J6m5sLWybvJfV0q0aYnv9CzOY9wK4Jnbn2FhXkm5ID2/Pz8fxfc1uP9sVjUNMYMhLvmKRmBdb78E6p1VKfZA==
   dependencies:
-    "@medusajs/deps" "2.22.6"
-    "@medusajs/modules-sdk" "2.22.6"
-    "@medusajs/orchestration" "2.22.6"
-    "@medusajs/utils" "2.22.6"
+    "@medusajs/deps" "2.22.7"
+    "@medusajs/modules-sdk" "2.22.7"
+    "@medusajs/orchestration" "2.22.7"
+    "@medusajs/utils" "2.22.7"
     ulid "^3.0.2"
 
 "@mikro-orm/cli@6.6.17":
@@ -4084,6 +4100,11 @@
   resolved "https://registry.yarnpkg.com/@types/triple-beam/-/triple-beam-1.3.5.tgz#74fef9ffbaa198eb8b588be029f38b00299caa2c"
   integrity sha512-6WaYesThRMCl19iryMYP7/x2OVgCtbIVflDGFpWnb9irXI3UjYE4AzmYuiUKY1AJstGijoY+MgUszMgRxIYTYw==
 
+"@types/trusted-types@^2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.7.tgz#baccb07a970b91707df3a3e8ba6896c57ead2d11"
+  integrity sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==
+
 "@typescript-eslint/parser@^8.72.0":
   version "8.72.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-8.72.1.tgz#7370b68dadc3819b9aac68ea340bd8b43ee62379"
@@ -5104,6 +5125,13 @@ doc-path@4.1.4:
   version "4.1.4"
   resolved "https://registry.yarnpkg.com/doc-path/-/doc-path-4.1.4.tgz#a9ede160cfb776a779263dcd88640b4feeea0f81"
   integrity sha512-yw5D++UCIB6a033PvQaUvSpW2QuKW0+DOId763n0Q4z3brxS7G8oQr8yBQ1nQFkognKrAVrV6I55TLeU9cfXTg==
+
+dompurify@3.4.17:
+  version "3.4.17"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-3.4.17.tgz#074bbb24eaa419535ac19ffe7f663104b0e1543d"
+  integrity sha512-B/pSlYVHQ58kqISD/yDjuJ1yfzI34m1gF4lAod2bwSRhiN4K5Cl3H8Af7hqB2PmTL911tdEudnnXn5FnhRoz0w==
+  optionalDependencies:
+    "@types/trusted-types" "^2.0.7"
 
 dot-prop@^10.1.0:
   version "10.2.0"
